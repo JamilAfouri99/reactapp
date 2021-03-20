@@ -1,0 +1,32 @@
+#containerHeadGeneric {
+    height:20rem;
+    width:100%;
+    overflow: hidden;
+    background:linear-gradient(to right,rgba(250, 0, 0, 0.5),rgba(253, 149, 149, 0.5)),url(../images/bann.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size:3rem;
+    color:whitesmoke;
+    transition:all 0.5s ease
+}
+@media (max-width:405px){
+    #containerHeadGeneric {
+        height:15rem;
+        width:100%;
+        overflow: hidden;
+        background:linear-gradient(to right,rgba(250, 0, 0, 0.5),rgba(253, 149, 149, 0.5)),url(../images/bann.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size:2rem;
+        color:whitesmoke;
+        transition:all 0.5s ease
+    }
+}

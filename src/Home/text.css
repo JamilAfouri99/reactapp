@@ -1,0 +1,101 @@
+@media (min-width:1046px){
+#containerText{
+    transition:all 0.5s ease;
+    color:whitesmoke;
+    height: 371px;
+    padding: 5rem;
+    text-align: center;
+    background: linear-gradient(rgba(206, 27, 40, 0.25),rgba(206, 27, 40, 0.25)),url(../images/cta01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#containerText #containerAlldata p{
+    transition:all 0.5s ease;
+    font-size:2.5rem
+}}
+@media (max-width:1045px){
+#containerText{
+    transition:all 0.5s ease;
+    color:whitesmoke;
+    height: 371px;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(rgba(206, 27, 40, 0.25),rgba(206, 27, 40, 0.25)),url(../images/cta01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+#containerText #containerAlldata p{
+    transition:all 0.5s ease;
+    font-size:2rem;
+    font-weight:bold
+}
+    #containerText #containerAlldata span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+}
+@media (max-width:703px){
+#containerText{
+    transition:all 0.5s ease;
+    color:whitesmoke;
+    height: 371px;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(rgba(206, 27, 40, 0.25),rgba(206, 27, 40, 0.25)),url(../images/cta01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+#containerText #containerAlldata p{
+    transition:all 0.5s ease;
+    font-size:1.5rem;
+    font-weight:bold
+}
+    #containerText #containerAlldata span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+}
+@media (max-width:476px){
+#containerText{
+    transition:all 0.5s ease;
+    color:whitesmoke;
+    height: 500px;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(rgba(206, 27, 40, 0.25),rgba(206, 27, 40, 0.25)),url(../images/cta01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+#containerText #containerAlldata p{
+    transition:all 0.5s ease;
+    font-size:1.5rem;
+    font-weight:bold
+}
+    #containerText #containerAlldata span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+}
+@media (max-width:344px){
+#containerText{
+    transition:all 0.5s ease;
+    color:whitesmoke;
+    height: 600px;
+    padding: 1rem;
+    text-align: center;
+    background: linear-gradient(rgba(206, 27, 40, 0.25),rgba(206, 27, 40, 0.25)),url(../images/cta01.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+#containerText #containerAlldata p{
+    transition:all 0.5s ease;
+    font-size:1.5rem;
+    font-weight:bold
+}
+    #containerText #containerAlldata span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+}

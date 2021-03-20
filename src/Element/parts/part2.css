@@ -1,0 +1,619 @@
+#wholepart2 h1,h2,h3{
+    font-weight:100;
+    margin:1em 0em 1em 0em
+}
+#containerpart2div1{
+    display:grid;
+    grid-gap:0.5em;
+    grid-template-columns:repeat(1,1fr);
+}
+#containerpart2div1 >div {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-self:flex-start
+}
+
+
+/*start form*/
+
+#containerForm{
+    grid-gap:0.5em;
+}
+#containerForm >div {
+    padding:1.3em
+}
+#containerForm >div:first-of-type {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#containerForm >div:nth-of-type(2) {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#containerForm >div:nth-of-type(3) {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#containerForm >div:nth-of-type(4) {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#containerForm >div:nth-of-type(5) {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#containerForm >div:nth-of-type(5) {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(12em,auto);
+}
+#containerForm >div:last-of-type {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/*end form*/
+
+
+
+/*start buttons*/
+.default{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold;
+}
+.default:hover{
+    background-color: #e22431;
+}
+.default:active{
+    background-color: #b1151f;
+}
+.default:focus{
+    outline: none;
+}
+.defaultEmpty{
+    cursor:pointer;
+    border:1px solid rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background:none;
+    font-weight:bold
+}
+.defaultEmpty:hover{
+    color: #e22936;
+    border-color:#e22936 ;
+}
+.defaultEmpty:active{
+    background-color: #ffd2d5;
+}
+.defaultEmpty:focus{
+    outline: none;
+}
+.small{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:4rem;
+    height:2rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.small:hover{
+    background-color: #e22431;
+}
+.small:active{
+    background-color: #b1151f;
+}
+.small:focus{
+    outline: none;
+}
+
+.defaultLarge{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:6rem;
+    height:3.4rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.defaultLarge:hover{
+    background-color: #e22431;
+}
+.defaultLarge:active{
+    background-color: #b1151f;
+}
+.defaultLarge:focus{
+    outline: none;
+}
+
+.wide{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:10rem;
+    height:2.5rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.wide:hover{
+    background-color: #e22431;
+}
+.wide:active{
+    background-color: #b1151f;
+}
+.wide:focus{
+    outline: none;
+}
+.fit{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:12rem;
+    height:2.5rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.fit:hover{
+    background-color: #e22431;
+}
+.fit:active{
+    background-color: #b1151f;
+}
+.fit:focus{
+    outline: none;
+}
+.fitEmpty{
+    cursor:pointer;
+    border:1px solid rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    width:12rem;
+    height:2.5rem;
+    background:none;
+    font-weight:bold
+}
+.fitEmpty:hover{
+    color: #e22936;
+    border-color:#e22936 ;
+}
+.fitEmpty:active{
+    background-color: #ffd2d5;
+}
+.fitEmpty:focus{
+    outline: none;
+}
+.fitSmall{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:12rem;
+    height:1.8rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.fitSmall:hover{
+    background-color: #e22431;
+}
+.fitSmall:active{
+    background-color: #b1151f;
+}
+.fitSmall:focus{
+    outline: none;
+}
+.fitSmallEmpty{
+    cursor:pointer;
+    border:1px solid rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    width:12rem;
+    height:1.8rem;
+    background:none;
+    font-weight:bold
+}
+.fitSmallEmpty:hover{
+    color: #e22936;
+    border-color:#e22936 ;
+}
+.fitSmallEmpty:active{
+    background-color: #ffd2d5;
+}
+.fitSmallEmpty:focus{
+    outline: none;
+}
+.icon{
+    cursor:pointer;
+    border:none;
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold
+}
+.icon:hover{
+    background-color: #e22431;
+}
+.icon:active{
+    background-color: #b1151f;
+}
+.icon:focus{
+    outline: none;
+}
+.iconEmpty{
+    cursor:pointer;
+    border:1px solid rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background:none;
+    font-weight:bold
+}
+.iconEmpty:hover{
+    color: #e22936;
+    border-color:#e22936 ;
+}
+.iconEmpty:active{
+    background-color: #ffd2d5;
+}
+.iconEmpty:focus{
+    outline: none;
+}
+.disabled{
+    border:none;
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background-color: #ce1b28;
+    color: #ffffff;
+    font-weight:bold;
+    opacity:0.5
+}
+.disabledEmpty{
+    border:1px solid rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    margin:0.5em;
+    width:6rem;
+    height:2.5rem;
+    background:none;
+    font-weight:bold;
+    opacity:0.5
+}
+/*end buttons*/
+
+/*start form classes*/
+
+.text,.select{
+    height:3em;
+    padding:0.7em;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.25);
+}
+.text:focus,.select:focus{
+    outline:none ;
+    border-color: rgb(177, 14, 14)
+}
+textarea{
+    font-size:1.3em;
+    padding:0.5em 
+}
+textarea:focus{
+    outline:none ;
+    border-color: rgb(177, 14, 14)
+}
+
+.fit,.icon{
+    border-radius:5px;
+    height:4em
+}
+/*end form classes*/
+
+#containerIMAGE div{
+    display: grid;
+    grid-template-columns: rotate(1,1fr);
+    grid-auto-rows: minmax(15em,auto);
+}
+#containerIMAGE div textarea{
+    background:rgb(228, 227, 227);
+    display: grid;
+    grid-template-columns: rotate(1,1fr);
+    grid-auto-rows: minmax(15em,auto);
+}
+
+@media (max-width:590px){
+    #containerpart2div1 >div{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #containerForm >div:first-of-type {
+        display:grid;
+        grid-gap:1em;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #containerForm >div:last-of-type {
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items:center
+    }
+    .default{
+        cursor:pointer;
+        border:none;
+        height:2.5rem;
+        width:100%;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold;
+    }
+    .defaultEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:100%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .defaultLarge{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:3.4rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .small{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:2rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .wide{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fit{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fitEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:100%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .fitSmall{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:1.8rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fitSmallEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:100%;
+        height:1.8rem;
+        background:none;
+        font-weight:bold
+    }
+    .icon{
+        cursor:pointer;
+        border:none;
+        width:100%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .iconEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        margin:0.5em;
+        width:100%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .disabled{
+        border:none;
+        margin:0.5em;
+        width:100%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold;
+        opacity:0.5
+    }
+    .disabledEmpty{
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        margin:0.5em;
+        width:100%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold;
+        opacity:0.5
+    }
+}
+@media (max-width:350px){
+    #containerpart2div1 div{
+        display:grid;
+        grid-gap:0.5em;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #containerpart2div1 >div{
+        display:grid;
+        grid-gap:0.5em;
+        grid-template-columns: repeat(1,1fr);
+        justify-self: flex-start;
+    }
+    #containerForm >div:last-of-type {
+        display:flex;
+        flex-direction: column;
+        justify-items:flex-start
+    }
+        .default{
+        cursor:pointer;
+        border:none;
+        height:2.5rem;
+        width:90%;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold;
+    }
+    .defaultEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:90%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .defaultLarge{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:3.4rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .small{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:2rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .wide{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fit{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fitEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:90%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .fitSmall{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:1.8rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .fitSmallEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        width:90%;
+        height:1.8rem;
+        background:none;
+        font-weight:bold
+    }
+    .icon{
+        cursor:pointer;
+        border:none;
+        width:90%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold
+    }
+    .iconEmpty{
+        cursor:pointer;
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        margin:0.5em;
+        width:90%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold
+    }
+    .disabled{
+        border:none;
+        margin:0.5em;
+        width:90%;
+        height:2.5rem;
+        background-color: #ce1b28;
+        color: #ffffff;
+        font-weight:bold;
+        opacity:0.5
+    }
+    .disabledEmpty{
+        border:1px solid rgb(110, 110, 110);
+        color:rgb(110, 110, 110);
+        margin:0.5em;
+        width:90%;
+        height:2.5rem;
+        background:none;
+        font-weight:bold;
+        opacity:0.5
+    }
+}
+
+@media(max-width:330px){
+    .text{
+    width:95%;
+    height:3em;
+    padding:0.7em;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-color: rgba(0, 0, 0, 0.25);
+    }
+}

@@ -1,0 +1,200 @@
+#disappearList{
+    display:none;
+}
+#disappearWrong{
+    display:none;
+}
+#menu{
+    transition:all 0.85s ease;
+    margin:0px;
+    color:white;
+    background-color: rgb(17, 17, 17);
+    height:3rem;
+    width:100%;
+    display: flex;
+    transition:all 0.85s ease;
+}
+.navy {
+    transition:all 0.85s ease;
+    border:5px solid rgb(141, 0, 0);
+    border-top: rgb(255, 255, 255);
+    border-left: rgb(255, 255, 255);
+    border-right: rgb(255, 255, 255);
+}
+#menu span {
+    transition:all 0.85s ease;
+    margin:0px;
+    padding:8px 2px 11px 100px;
+    flex:2;
+    font-size:1.3rem;
+    font-weight:bold
+}
+#menu i{
+    position:fixed;
+    top:0;right:0;
+    font-size: 2rem;
+    padding:0.5rem 2rem 0rem 0rem;
+    z-index: 2;
+    transition:all 0.5s ease;
+    cursor: pointer;
+    transition:all 0.5s ease
+}
+#menu i:hover{
+    color:rgb(141, 0, 0);
+}
+.itemsy{
+    transition:all 0.85s ease;
+    height:100%;
+    width:20%;
+    background:rgb(17, 17, 17);
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index: 1;
+}
+.appear{
+    transition:all 0.85s ease;
+    height:100%;
+    width:20%;
+    background:rgb(17, 17, 17);
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index: 1;
+    right:-20%;
+}
+.appear ul{
+    transition:all 0.85s ease;
+    margin: 5rem 2rem 2rem 2rem;
+    list-style: none;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+.itemsy ul{
+    transition:all 0.85s ease;
+    margin: 5rem 2rem 2rem 2rem;
+    list-style: none;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+.itemsy ul a {
+    transition:all 0.85s ease;
+    margin:55px 5px 3px -8px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:1.2rem;
+    
+}
+.appear ul a {
+    transition:all 0.85s ease;
+    margin:55px 5px 3px -8px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:1.2rem;
+    
+}
+.itemsy ul a:hover {
+    color:rgb(141, 0, 0)
+}
+@media(max-width:1239px){
+    .itemsy{
+        transition:all 0.85s ease;
+        height:100%;
+        width:30%;
+        background:rgb(17, 17, 17);
+        position:fixed;
+        top:0;
+        right: 0;
+        z-index: 1;
+    }
+    .appear{
+        transition:all 0.85s ease;
+        height:100%;
+        width:30%;
+        background:rgb(17, 17, 17);
+        position:fixed;
+        top:0;
+        right: 0;
+        z-index: 1;
+        right:-30%;
+    }
+}
+@media(max-width:786px){
+    .itemsy{
+        transition:all 0.85s ease;
+        height:100%;
+        width:40%;
+        background:rgb(17, 17, 17);
+        position:fixed;
+        top:0;
+        right: 0;
+        z-index: 1;
+    }
+    .appear{
+        transition:all 0.85s ease;
+        height:100%;
+        width:40%;
+        background:rgb(17, 17, 17);
+        position:fixed;
+        top:0;
+        right: 0;
+        z-index: 1;
+        right:-40%;
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .itemsy{
+        transition:all 0.85s ease;
+        height:80%;
+        width:100%;
+        background:rgb(17, 17, 17,0.8);
+        position:fixed;
+        top:0;
+        z-index: 1;
+    }
+    .appear{
+        transition:all 0.85s ease;
+        height:100%;
+        width:100%;
+        background:rgb(17, 17, 17);
+        position:fixed;
+        top:0;
+        right: 0;
+        z-index: 1;
+        top:-100%;
+        display: flex;
+    }
+    .itemsy ul{
+        text-align: center;
+        transition:all 0.85s ease;
+        margin: 5rem 2rem 2rem 2rem;
+        list-style: none;
+        width:80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .appear ul{
+        text-align: center;
+        transition:all 0.85s ease;
+        margin: 5rem 2rem 2rem 2rem;
+        list-style: none;
+        width:80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:350px){
+    #menu span {
+        transition:all 0.85s ease;
+        margin:0px;
+        padding:8px 2px 11px 50px;
+        flex:2;
+        font-size:1.3rem;
+        font-weight:bold
+    }
+}

@@ -1,0 +1,52 @@
+
+#containerSocial #social{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+position: relative;
+}
+img{
+    border-radius: 50%;
+}
+
+@media (min-width:762px){
+    #containerSocial{
+        transition:all 0.5s ease;
+        text-align: center;
+        margin-bottom:5rem
+    }
+    #containerSocial #text{
+        transition:all 0.5s ease;
+    padding:3rem;
+    color:rgb(102, 102, 102)
+    }
+    #containerSocial #text p{
+        transition:all 0.5s ease;
+    font-size:3rem
+    }
+    #containerSocial #text span{
+        transition:all 0.5s ease;
+    font-size:1rem
+    }
+}
+@media (max-width:762px){
+    #containerSocial{
+        transition:all 0.5s ease;
+        text-align: center;
+        margin-bottom:3rem
+    }
+    #containerSocial #text{
+        transition:all 0.5s ease;
+    padding:2rem;
+    color:rgb(102, 102, 102)
+    }
+    #containerSocial #text p{
+        transition:all 0.5s ease;
+    font-size:2rem;
+    font-weight:bold
+    }
+    #containerSocial #text span{
+        transition:all 0.5s ease;
+    font-size:1rem
+    }
+}

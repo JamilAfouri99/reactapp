@@ -1,0 +1,269 @@
+@media (min-width:1312px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    background: linear-gradient(
+        45deg
+        , white, transparent);
+    height:337px;
+    width:27%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+    
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 8px solid rgb(129, 129, 129);
+    padding:1rem;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 2.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -13px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 10px;
+    font-size: 12px;
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    background:none;
+    color: red;
+}}
+@media (max-width:1311px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    background: linear-gradient(
+        45deg
+        , white, transparent);
+    height:337px;
+    width:27%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+    
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 8px solid rgb(129, 129, 129);
+    padding:1rem;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 2.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -13px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 6px;
+    font-size: 10px;
+    font-weight:bold
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    background:none;
+    color: red;
+}}
+@media (max-width:1197px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    background: linear-gradient(
+        45deg
+        , white, transparent);
+    height:337px;
+    width:27%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+    
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 8px solid rgb(129, 129, 129);
+    padding:1rem;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 2.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -20px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 0px;
+    font-size: 10px;
+    font-weight:bold
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    background:none;
+    color: rgb(209, 0, 0);
+}}
+@media (max-width:1122px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    background: linear-gradient(45deg,white, transparent);
+    height:350px;
+    width:38%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 6px solid rgb(129, 129, 129);
+    padding:10px;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 1.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -20px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight:bold
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    background:none;
+    color: rgb(216, 0, 0);
+}}
+@media (max-width:822px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    background: linear-gradient(45deg,white, transparent);
+    height:350px;
+    width:60%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 6px solid rgb(129, 129, 129);
+    padding:10px;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 1.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -20px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight:bold
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    transition:all 0.85s ease;
+    background:none;
+    color: rgb(216, 0, 0);
+}}
+@media (max-width:465px)
+{#ContainerSocialChild{
+    transition:all 0.85s ease;
+    transition:all 0.85s ease;
+    background: linear-gradient(45deg,white, transparent);
+    height:350px;
+    width:100%;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+#ContainerSocialChild p{
+    transition:all 0.85s ease;
+    transition:all 0.85s ease;
+    height:60%;
+    border-left: 6px solid rgb(129, 129, 129);
+    padding:10px;
+    text-align: left;
+    color:rgb(65, 65, 65);
+    font-style: italic;
+}
+#ContainerSocialChild #span{
+    transition:all 0.85s ease;
+    margin-top: 1.5rem;
+    height:30%;
+}
+#ContainerSocialChild span:first-of-type{
+    transition:all 0.85s ease;
+    position: relative;
+    left: -20px;
+}
+#ContainerSocialChild span:last-of-type{
+    transition:all 0.85s ease;
+    color:rgb(65, 65, 65);
+    position: relative;
+    top: -19px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight:bold
+}
+#ContainerSocialChild span mark{
+    transition:all 0.85s ease;
+    background:none;
+    color: rgb(216, 0, 0);
+}}

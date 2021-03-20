@@ -1,0 +1,209 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@media(min-width:1913px){
+    #header{
+        margin:0px;
+        position:relative;
+        width: 100%;
+        overflow: hidden;
+        transition:all 0.5s ease
+    }
+    #divVideo{
+        
+        transition:all 0.5s ease;
+        display: flex;
+        justify-content: center;
+        background: rgb(92, 92, 92);
+    }
+    #header #text{
+        position:absolute;
+        top:0px;left:0px;
+        background:linear-gradient(90deg,rgba(136, 4, 4, 0.7),rgba(53, 53, 53, 0.7));
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.5s ease;
+        text-align: center;
+    }
+    #header #text p:first-of-type{
+        display: block;
+        color:white;
+        font-size:4rem;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #header #text span:last-of-type{
+        display: block;
+        color:rgb(212, 212, 212);
+        font-size:1.2rem;
+    }
+}
+@media (min-width:816px){
+#header{
+    background-color: green;
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+    transition:all 0.5s ease
+}
+#divVideo{
+    overflow: hidden;
+    height:35rem;
+    transition:all 0.5s ease
+}
+#header #text{
+    position:absolute;
+    top:0px;left:0px;
+    background:linear-gradient(90deg,rgba(136, 4, 4, 0.7),rgba(53, 53, 53, 0.7));
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.5s ease;
+    text-align: center;
+}
+#header #text p:first-of-type{
+    display: block;
+    color:white;
+    font-size:4rem;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#header #text span:last-of-type{
+    display: block;
+    color:rgb(212, 212, 212);
+    font-size:1.2rem;
+}}
+
+@media (max-width:815px){
+    #header{
+        background-color: green;
+        position:relative;
+        width: 100%;
+        overflow: hidden;
+        transition:all 0.5s ease;
+        text-align: center;
+    }
+    #divVideo{
+        overflow: hidden;
+        background:blue;
+        height:25rem;
+        transition:all 0.5s ease
+    }
+    #header #text{
+        position:absolute;
+        top:0px;left:0px;
+        background:linear-gradient(90deg,rgba(136, 4, 4, 0.7),rgba(53, 53, 53, 0.7));
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.5s ease;
+        text-align: center;
+    }
+    #header #text p:first-of-type{
+        display: block;
+        color:white;
+        font-size:3rem;
+        margin-bottom: -0px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #header #text span:last-of-type{
+        display: block;
+        color:rgb(212, 212, 212);
+        font-size:1rem;
+    }
+}
+@media (max-width:543px){
+    #header{
+        background-color: green;
+        position:relative;
+        width: 100%;
+        overflow: hidden;
+        transition:all 0.5s ease
+    }
+    #divVideo{
+        overflow: hidden;
+        background:blue;
+        height:17rem;
+        transition:all 0.5s ease
+    }
+    #header #text{
+        position:absolute;
+        top:0px;left:0px;
+        background:linear-gradient(90deg,rgba(136, 4, 4, 0.7),rgba(53, 53, 53, 0.7));
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.5s ease;text-align: center;
+        
+    }
+    #header #text p:first-of-type{
+        display: block;
+        color:white;
+        font-size:2rem;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #header #text span:last-of-type{
+        display: block;
+        color:rgb(212, 212, 212);
+        font-size:.7rem;
+    }
+}
+@media (max-width:372px){
+    #header{
+        background-color: green;
+        position:relative;
+        width: 100%;
+        overflow: hidden;
+        transition:all 0.5s ease
+    }
+    #divVideo{
+        overflow: hidden;
+        background:blue;
+        height:14rem;
+        transition:all 0.5s ease
+    }
+    #header #text{
+        position:absolute;
+        top:0px;left:0px;
+        background:linear-gradient(90deg,rgba(136, 4, 4, 0.7),rgba(53, 53, 53, 0.7));
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition:all 0.5s ease;
+        text-align: center;
+        
+    }
+    #header #text p:first-of-type{
+        display: block;
+        color:white;
+        font-size:2rem;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #header #text span:last-of-type{
+        display: block;
+        color:rgb(212, 212, 212);
+        font-size:.5rem;
+        font-weight:bold
+    }
+}

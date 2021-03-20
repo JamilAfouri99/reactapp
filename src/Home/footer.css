@@ -1,0 +1,142 @@
+#wholeFooter{
+    background:rgb(17, 17, 17);
+}
+
+#wholeFooter #containerAlldata #containerFooter p{
+    margin-bottom: 2rem;
+    color:rgb(235, 235, 235);
+    font-size:1.3rem
+}
+#wholeFooter #containerAlldata #containerFooter div:first-of-type span{
+    color:rgb(128, 128, 128);
+    font-size:0.9rem
+}
+
+#wholeFooter #containerAlldata #containerFooter div:nth-of-type(2) span {
+    display:block;
+    color:rgb(128, 128, 128);
+    font-size:0.9rem;
+    border-bottom:1px solid rgb(168, 168, 168);
+    padding:0.3rem 0rem 1rem 0rem 
+}
+#wholeFooter #containerAlldata #containerFooter div:nth-of-type(2) span mark {
+    background: none;
+    color:rgb(128, 128, 128);
+    transition: all 0.5s ease;
+    cursor:pointer
+}
+#wholeFooter #containerAlldata #containerFooter div:nth-of-type(2) span mark:hover {
+    background: none;
+    color:rgb(136, 0, 0);
+    transition: all 0.5s ease;
+}
+#wholeFooter #containerAlldata #containerFooter div:nth-of-type(2) span:last-of-type{
+    border:none
+}
+#wholeFooter #containerAlldata #containerFooter div:last-of-type span mark:hover{
+    color:rgb(136, 0, 0);
+    background:none;
+    transition:all 0.5s ease
+}
+#wholeFooter #containerAlldata #containerFooter div:last-of-type span i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    width:1.77rem;
+    height:1.77rem;
+    font-size:1.15rem;
+    border-radius:5px;
+    margin-right:1.5rem    ;
+    cursor:text
+}
+
+#wholeFooter #containerAlldata #containerFooter div:last-of-type span{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color:rgb(235, 235, 235);
+    font-size:0.88rem;
+    padding: 0.1rem 0rem 1rem 0rem ;
+    transition:all 0.5s ease;
+    cursor:pointer
+}
+#wholeFooter #containerAlldata #containerFooter div:last-of-type span mark{
+    background:none;
+    color:rgb(235, 235, 235);
+    transition:all 0.5s ease;
+    display: block;
+    
+}
+#wholeFooter #containerAlldata #lasty{
+    margin-top:3rem;
+    text-align: center;
+    height:10rem;
+    color:rgb(128, 128, 128);
+    font-size:0.8rem
+}
+
+#hr{
+    opacity:0.3
+}
+
+@media (min-width:1281px){
+    #wholeFooter #containerAlldata #containerFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top:2rem;
+        margin-bottom:2rem;
+    }
+    
+    #wholeFooter #containerAlldata #containerFooter div:first-of-type {
+        width:45%;
+        padding:2rem;
+    }
+    #wholeFooter #containerAlldata #containerFooter div:nth-of-type(2){
+        width:30%;
+        padding:2rem;
+    }
+    #wholeFooter #containerAlldata #containerFooter div:last-of-type{
+        width:25%;
+        padding:2rem;
+    }
+}
+@media (max-width:1281px){
+    #wholeFooter #containerAlldata #containerFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:2rem;
+        margin-bottom:2rem;
+        text-align: center;
+    }
+    
+    #wholeFooter #containerAlldata #containerFooter div:first-of-type {
+        width:80%;
+        padding:2rem;
+    }
+    #wholeFooter #containerAlldata #containerFooter div:nth-of-type(2){
+        width:80%;
+        padding:2rem;
+    }
+    #wholeFooter #containerAlldata #containerFooter div:last-of-type{
+        width:80%;
+        padding:2rem;
+    }
+}
+
+@media (max-width:400px){
+    #wholeFooter #containerAlldata #containerFooter p{
+        color:rgb(235, 235, 235);
+        font-size:1.5rem;
+        font-weight:bold
+    }
+    #wholeFooter #containerAlldata #containerFooter div:first-of-type span{
+        color:rgb(128, 128, 128);
+        font-size:1.1rem;
+    }
+}

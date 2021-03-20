@@ -1,0 +1,136 @@
+@media (min-width:1046px){
+#wholeProps{
+    margin-bottom:5rem;
+    transition:all 0.5s ease
+}
+#wholeProps #firsto{
+    display: block;
+    padding:0px;
+    text-align:center;
+    color:rgb(65, 65, 65);
+    margin-bottom: 6rem;
+    transition:all 0.5s ease
+}
+#wholeProps #firsto p{
+    margin:0px;
+    padding:1.5rem;
+    padding-top:6rem;
+    font-size:3rem;
+    transition:all 0.5s ease
+}
+#wholeProps #firsto span{
+    font-size:1rem;
+    transition:all 0.5s ease;
+}
+
+#wholeProps #ContainerFor6Items{
+    transition:all 0.5s ease;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}}
+@media (max-width:1045px){
+    #wholeProps{
+        transition:all 0.5s ease;
+        margin-bottom:2rem;
+    }
+    #wholeProps #firsto{
+        transition:all 0.5s ease;
+        display: block;
+        padding:0px;
+        text-align:center;
+        color:rgb(65, 65, 65);
+        margin-bottom: 6rem;
+    }
+    #wholeProps #firsto p{
+        transition:all 0.5s ease;
+        margin:0px;
+        padding:1.5rem;
+        padding-top:6rem;
+        font-size:2.5rem
+    }
+    #wholeProps #firsto span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+    
+    #wholeProps #ContainerFor6Items{
+        transition:all 0.5s ease;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:700px){
+    #wholeProps{
+        transition:all 0.5s ease;
+        margin-bottom:2rem;
+    }
+    #wholeProps #firsto{
+        transition:all 0.5s ease;
+        display: block;
+        padding:0px;
+        text-align:center;
+        color:rgb(65, 65, 65);
+        margin-bottom: 6rem;
+    }
+    #wholeProps #firsto p{
+        transition:all 0.5s ease;
+        margin:0px;
+        padding:1.5rem;
+        padding-top:6rem;
+        font-size:2.5rem
+    }
+    #wholeProps #firsto span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+    
+    #wholeProps #ContainerFor6Items{
+        transition:all 0.5s ease;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        left:16%
+    }
+}
+@media (max-width:399px){
+    #wholeProps{
+        transition:all 0.5s ease;
+        margin-bottom:0.5rem
+    }
+    #wholeProps #firsto{
+        transition:all 0.5s ease;
+        display: block;
+        padding:0px;
+        text-align:center;
+        color:rgb(65, 65, 65);
+        margin-bottom: 6rem;
+    }
+    #wholeProps #firsto p{
+        transition:all 0.5s ease;
+        margin:0px;
+        padding:1.5rem;
+        padding-top:3rem;
+        font-size:1.5rem;
+        font-weight:bold
+    }
+    #wholeProps #firsto span{
+        transition:all 0.5s ease;
+        font-size:1rem
+    }
+    
+    #wholeProps #ContainerFor6Items{
+        transition:all 0.5s ease;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        left:15px
+    }
+}
