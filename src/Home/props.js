@@ -6,7 +6,7 @@ class Props extends Component{
     render(){
         return(
             <div id="wholeProps">
-                <div id="firsto">
+                <div id="firsto" data-aos="fade-left">
                     <p>SEM TURPIS AMET SEMPER</p>
                     <span>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare<br/> aliquet accumsan erat tempus amet porttitor.</span>
                 </div>

@@ -7,7 +7,7 @@ import Text from "./text"
 import Social from "./social"
 import Footer from "./footer"
 
-class Home extends Component{
+class Home extends Component{ 
     render(){
         return(
             <div id="WholeHome">
@@ -18,11 +18,11 @@ class Home extends Component{
                     </div>
                     <div id="bigPart">
                         <div id="bkgrnd">
-                            <div id="containerAlldata">
+                            <div id="containerAlldata" >
                                 <Props/>
                             </div>    
-                                <Text/>
-                            <div id="containerAlldata">
+                            <Text />    
+                            <div id="containerAlldata" >
                                 <Social/>
                             </div>
                             

@@ -4,7 +4,7 @@ import "./SocialChild.css"
 class SocialProps extends React.Component{
     render(){
         return(
-            <div id="ContainerSocialChild">
+            <div id="ContainerSocialChild" data-aos="zoom-in">
                 <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
                 <div id="span">
                     <span>{this.props.imagy}</span>

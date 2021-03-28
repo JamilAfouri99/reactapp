@@ -24,7 +24,7 @@ class Menu extends Component{
                         <i onClick={this.Appearance} className="fa fa-times" id={this.state.wrong==true?"disappearWrong":null}></i>
                     </div>
                     <div className={this.state.show==true?"itemsy":"appear"} >
-                        <ul>
+                        <ul >
                             <NavLink exact activeClassName="navy" to="/">Home</NavLink>
                             <NavLink activeClassName="navy"  to="/element">Element</NavLink>
                             <NavLink activeClassName="navy"  to="/generic">Generic</NavLink>
